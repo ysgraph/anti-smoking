@@ -1,0 +1,68 @@
+@import "/src/styles/color";
+
+.App {
+  background-color: $bg;
+  line-height: 1em;
+}
+
+body {
+  line-height: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $bg;
+}
+
+.ElapsedTimeModule {
+    padding: 24px;
+    width: 100%;
+    background-color: $bg2;
+    border-top: 1px solid $line;
+    border-bottom: 1px solid $line;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: $label;
+    line-height: 1em;
+    margin-bottom: 8px;
+}
+
+.counterWrapper {
+  display: flex;
+  padding: 0;
+  align-items: baseline;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 900;
+    color: $label;
+    line-height: 1em;
+    margin-right: 12px;
+}
+
+.Text__count {
+  font-size: 64px;
+  font-weight: 900;
+  color: $label;
+  line-height: 1em;
+  padding-right: 8px;
+}
+
+header {
+  p {
+    font-size: 14px;
+    font-weight: 900;
+    color: $label2;
+    padding: 40px 24px 24px;
+  }
+}
+
+footer {
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      color: $label2;
+      padding: 24px 24px 64px;
+    }
+}

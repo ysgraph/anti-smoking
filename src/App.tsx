@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import './styles/_reset.scss';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ElapsedTimeModule from './components/ElapsedTimeModule';

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import dayjs from 'dayjs';
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom';
 
 function ElapsedTimeModule() {
 
@@ -27,15 +27,17 @@ function ElapsedTimeModule() {
 
     <div className="ElapsedTimeModule">
         <h1>Elapsed Time</h1>
-        <p>{now.diff(start, 'day')}</p>
-        <p>
-            Days + 
-            {now.diff(start, 'hour') - now.diff(start, 'day')*24}
-            :
-            {now.diff(start, 'minute') - now.diff(start, 'hour')*60}
-            {/* :
-            {now.diff(start, 'second') - now.diff(start, 'minute')*60} */}
-        </p>
+        <div className="counterWrapper">
+            <p className="Text__count">{now.diff(start, 'day')}</p>
+            <p>
+                Days + 
+                {now.diff(start, 'hour') - now.diff(start, 'day')*24}
+                :
+                {now.diff(start, 'minute') - now.diff(start, 'hour')*60}
+                {/* :
+                {now.diff(start, 'second') - now.diff(start, 'minute')*60} */}
+            </p>
+        </div>
     </div>
   );
 }
