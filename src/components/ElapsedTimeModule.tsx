@@ -4,7 +4,7 @@ import dayjs from 'dayjs';
 
 function ElapsedTimeModule() {
 
-  const start = dayjs('2020-12-04 14:48:00'); // 開始日時の取得
+  const start = dayjs('2021-07-06 01:21:22'); // 開始日時の取得
   const now = dayjs(); // 現在日時の取得
 
   now.diff(start); // .diffで差分を使う宣言
