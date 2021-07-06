@@ -2,7 +2,7 @@
 import dayjs from 'dayjs';
 // import ReactDOM from 'react-dom';
 
-function ElapsedTimeModule() {
+function SavingMoneyModule() {
 
   const start = dayjs('2021-07-06 01:21:22'); // 開始日時の取得
   const now = dayjs(); // 現在日時の取得
@@ -23,23 +23,19 @@ function ElapsedTimeModule() {
   // const [minute, setMinute] = useState("")
   // const [second, setSecond] = useState(now.diff(start, 'second') - now.diff(start, 'minute')*60)
 
+  const saveTime: any = now.diff(start, 'minute') / 72 * 27.5
+
   return (
 
     <div className="Container">
-        <h1>Elapsed Time</h1>
+        <h1>Saving Money</h1>
         <div className="counterWrapper">
-            <p className="Text__count">{now.diff(start, 'day')}</p>
-            <p>
-                Days&nbsp;+&nbsp;
-                {now.diff(start, 'hour') - now.diff(start, 'day')*24}
-                :
-                {now.diff(start, 'minute') - now.diff(start, 'hour')*60}
-                {/* :
-                {now.diff(start, 'second') - now.diff(start, 'minute')*60} */}
-            </p>
+            <p className="Text__count">{parseInt(saveTime, 10)}</p>
+            <p>JPY</p>
         </div>
+        <p className="caption">{now.diff(start, 'day')}&nbsp;packs</p>
     </div>
   );
 }
 
-export default ElapsedTimeModule;
+export default SavingMoneyModule;

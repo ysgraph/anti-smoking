@@ -11,20 +11,21 @@ body {
   background-color: $bg;
 }
 
-.ElapsedTimeModule {
+.Container {
     padding: 24px;
     width: 100%;
     background-color: $bg2;
     border-top: 1px solid $line;
     border-bottom: 1px solid $line;
+    margin-bottom: 20px;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: $label;
     line-height: 1em;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .counterWrapper {
@@ -35,15 +36,22 @@ h1 {
 
 p {
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 800;
     color: $label;
     line-height: 1em;
     margin-right: 12px;
 }
 
+.caption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: $label2;
+  font-weight: 500;
+}
+
 .Text__count {
   font-size: 64px;
-  font-weight: 900;
+  font-weight: 800;
   color: $label;
   line-height: 1em;
   padding-right: 8px;
@@ -52,7 +60,7 @@ p {
 header {
   p {
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 800;
     color: $label2;
     padding: 40px 24px 24px;
   }
