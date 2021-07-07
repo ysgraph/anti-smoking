@@ -1,5 +1,6 @@
 // import React, { useState } from 'react';
 import dayjs from 'dayjs';
+import { useEffect, useState } from 'react';
 // import ReactDOM from 'react-dom';
 
 function ElapsedTimeModule() {
@@ -7,7 +8,14 @@ function ElapsedTimeModule() {
   const start = dayjs('2021-07-06 01:21:22'); // 開始日時の取得
   const now = dayjs(); // 現在日時の取得
 
-  now.diff(start); // .diffで差分を使う宣言
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const countUp = () => {
+      setCount(c => c+1);
+    }
+    setInterval(countUp, 1000);
+  }, [] );
   
   // console.log(now.diff(start, 'day')); // 日の差分
   // console.log(now.diff(start, 'hour')); // 時間の差分
@@ -31,12 +39,13 @@ function ElapsedTimeModule() {
             <p className="Text__count">{now.diff(start, 'day')}</p>
             <p>
                 Days&nbsp;+&nbsp;
-                {now.diff(start, 'hour') - now.diff(start, 'day')*24}
+                {String(now.diff(start, 'hour') - now.diff(start, 'day')*24).padStart(2, '0')}
                 :
-                {now.diff(start, 'minute') - now.diff(start, 'hour')*60}
-                {/* :
-                {now.diff(start, 'second') - now.diff(start, 'minute')*60} */}
+                {String(now.diff(start, 'minute') - now.diff(start, 'hour')*60).padStart(2, '0')}
+                :
+                {String(now.diff(start, 'second') - now.diff(start, 'minute')*60).padStart(2, '0')}
             </p>
+            {/* <p>{count}</p> */}
         </div>
     </div>
   );
