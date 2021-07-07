@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/anti-smoking/static/css/main.0b29eb3f.chunk.css",
-    "main.js": "/anti-smoking/static/js/main.2669287e.chunk.js",
-    "main.js.map": "/anti-smoking/static/js/main.2669287e.chunk.js.map",
+    "main.css": "/anti-smoking/static/css/main.58aa702c.chunk.css",
+    "main.js": "/anti-smoking/static/js/main.619d0a37.chunk.js",
+    "main.js.map": "/anti-smoking/static/js/main.619d0a37.chunk.js.map",
     "runtime-main.js": "/anti-smoking/static/js/runtime-main.d04f1966.js",
     "runtime-main.js.map": "/anti-smoking/static/js/runtime-main.d04f1966.js.map",
     "static/js/2.91c7af44.chunk.js": "/anti-smoking/static/js/2.91c7af44.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.ba59798d.chunk.js": "/anti-smoking/static/js/3.ba59798d.chunk.js",
     "static/js/3.ba59798d.chunk.js.map": "/anti-smoking/static/js/3.ba59798d.chunk.js.map",
     "index.html": "/anti-smoking/index.html",
-    "static/css/main.0b29eb3f.chunk.css.map": "/anti-smoking/static/css/main.0b29eb3f.chunk.css.map",
+    "static/css/main.58aa702c.chunk.css.map": "/anti-smoking/static/css/main.58aa702c.chunk.css.map",
     "static/js/2.91c7af44.chunk.js.LICENSE.txt": "/anti-smoking/static/js/2.91c7af44.chunk.js.LICENSE.txt",
     "static/media/twitter.eedcaac5.svg": "/anti-smoking/static/media/twitter.eedcaac5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d04f1966.js",
     "static/js/2.91c7af44.chunk.js",
-    "static/css/main.0b29eb3f.chunk.css",
-    "static/js/main.2669287e.chunk.js"
+    "static/css/main.58aa702c.chunk.css",
+    "static/js/main.619d0a37.chunk.js"
   ]
 }
