@@ -57,6 +57,32 @@ p {
   padding-right: 8px;
 }
 
+a {
+  margin: 0 24px;
+  width: fill;
+  padding: 0 16px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  border: 2px solid $twitter;
+  border-radius: 4px;
+  background-color: $bg2;
+  color: $twitter;
+  text-decoration: none;
+  p {
+    font-size: 14px;
+    font-weight: 800;
+    color: $label;
+    line-height: 1em;
+    margin-right: 12px;
+    color: $twitter;
+    margin: auto;
+  }
+  :active {
+    background-color: $bg2;
+  }
+}
+
 header {
   p {
     font-size: 14px;
