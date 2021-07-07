@@ -1,9 +1,5 @@
 import twitter from '../image/twitter.svg';
-import {
-    TwitterShareButton,
-    TwitterIcon,
-  } from 'react-share';
-  import dayjs from 'dayjs';
+import dayjs from 'dayjs';
 
 function ShareButton() {
 
