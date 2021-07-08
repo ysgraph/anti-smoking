@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/anti-smoking/static/css/main.85d10a46.chunk.css",
-    "main.js": "/anti-smoking/static/js/main.44a6ecca.chunk.js",
-    "main.js.map": "/anti-smoking/static/js/main.44a6ecca.chunk.js.map",
+    "main.js": "/anti-smoking/static/js/main.da869a29.chunk.js",
+    "main.js.map": "/anti-smoking/static/js/main.da869a29.chunk.js.map",
     "runtime-main.js": "/anti-smoking/static/js/runtime-main.6ab4301f.js",
     "runtime-main.js.map": "/anti-smoking/static/js/runtime-main.6ab4301f.js.map",
-    "static/js/2.a0426e5f.chunk.js": "/anti-smoking/static/js/2.a0426e5f.chunk.js",
-    "static/js/2.a0426e5f.chunk.js.map": "/anti-smoking/static/js/2.a0426e5f.chunk.js.map",
+    "static/js/2.ef6a4166.chunk.js": "/anti-smoking/static/js/2.ef6a4166.chunk.js",
+    "static/js/2.ef6a4166.chunk.js.map": "/anti-smoking/static/js/2.ef6a4166.chunk.js.map",
     "static/js/3.bc502654.chunk.js": "/anti-smoking/static/js/3.bc502654.chunk.js",
     "static/js/3.bc502654.chunk.js.map": "/anti-smoking/static/js/3.bc502654.chunk.js.map",
     "index.html": "/anti-smoking/index.html",
     "static/css/main.85d10a46.chunk.css.map": "/anti-smoking/static/css/main.85d10a46.chunk.css.map",
-    "static/js/2.a0426e5f.chunk.js.LICENSE.txt": "/anti-smoking/static/js/2.a0426e5f.chunk.js.LICENSE.txt",
+    "static/js/2.ef6a4166.chunk.js.LICENSE.txt": "/anti-smoking/static/js/2.ef6a4166.chunk.js.LICENSE.txt",
     "static/media/cigarette.de679953.svg": "/anti-smoking/static/media/cigarette.de679953.svg",
     "static/media/twitter.eedcaac5.svg": "/anti-smoking/static/media/twitter.eedcaac5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6ab4301f.js",
-    "static/js/2.a0426e5f.chunk.js",
+    "static/js/2.ef6a4166.chunk.js",
     "static/css/main.85d10a46.chunk.css",
-    "static/js/main.44a6ecca.chunk.js"
+    "static/js/main.da869a29.chunk.js"
   ]
 }
