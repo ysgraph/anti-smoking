@@ -18,13 +18,14 @@ function SavingMoneyModule() {
   }, [] );
 
   const saveTime: any = now.diff(start, 'minute') / 72 * 27.5
+  const saveTimeInt = parseInt(saveTime, 10)
 
   return (
 
     <div className="Container">
         <h1>Saving Money</h1>
         <div className="counterWrapper">
-            <p className="Text__count">{parseInt(saveTime, 10)}</p>
+            <p className="Text__count">{saveTimeInt.toLocaleString()}</p>
             <p>JPY</p>
         </div>
         <p className="caption">{now.diff(start, 'day')}&nbsp;packs</p>
