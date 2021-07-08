@@ -16,20 +16,6 @@ function ElapsedTimeModule() {
     }
     setInterval(countUp, 1000);
   }, [] );
-  
-  // console.log(now.diff(start, 'day')); // 日の差分
-  // console.log(now.diff(start, 'hour')); // 時間の差分
-  // console.log(now.diff(start, 'minute')); // 分の差分
-
-  // console.log(now.diff(start, 'day')); // 日の差分
-  // console.log(now.diff(start, 'hour') - now.diff(start, 'day')*24); // 時間経過
-  // console.log(now.diff(start, 'minute') - now.diff(start, 'hour')*60); // 分経過
-  // console.log(now.diff(start, 'second') - now.diff(start, 'minute')*60); // 秒経過
-
-  // const [day, setDay] = useState("")
-  // const [hour, setHour] = useState("")
-  // const [minute, setMinute] = useState("")
-  // const [second, setSecond] = useState(now.diff(start, 'second') - now.diff(start, 'minute')*60)
 
   return (
 

@@ -1,11 +1,21 @@
 // import React, { useState } from 'react';
 import dayjs from 'dayjs';
+import { useEffect, useState } from 'react';
 // import ReactDOM from 'react-dom';
 
 function SavingMoneyModule() {
 
   const start = dayjs('2021-07-06 01:21:22'); // 開始日時の取得
   const now = dayjs(); // 現在日時の取得
+
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const countUp = () => {
+      setCount(c => c+1);
+    }
+    setInterval(countUp, 1000);
+  }, [] );
 
   const saveTime: any = now.diff(start, 'minute') / 72 * 27.5
 
