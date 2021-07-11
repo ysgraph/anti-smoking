@@ -12,8 +12,13 @@ function App() {
     <div className="App">
       <Header />
       <ElapsedTimeModule />
-      <SavingMoneyModule />
-      <SavingTimeModule />
+      {/* <div style={{
+        display: "flex",
+        alignItems: "center",
+      }}> */}
+        <SavingMoneyModule />
+        <SavingTimeModule />
+      {/* </div> */}
       <ShareButton />
       <Footer />
     </div>

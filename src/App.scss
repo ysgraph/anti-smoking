@@ -9,14 +9,15 @@ body {
   line-height: 1.5em;
   font-family: 'Montserrat', sans-serif;
   background-color: $bg;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .Container {
     padding: 24px;
     width: 100%;
     background-color: $bg2;
-    border-top: 1px solid $line;
-    border-bottom: 1px solid $line;
+    outline: 1px solid $line;
     margin-bottom: 20px;
 }
 

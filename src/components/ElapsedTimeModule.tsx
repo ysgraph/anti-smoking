@@ -5,7 +5,8 @@ import { useEffect, useState } from 'react';
 
 function ElapsedTimeModule() {
 
-  const start = dayjs('2021-07-06 01:21:22'); // 開始日時の取得
+  // const start = dayjs('2021-07-06 01:21:22'); // 開始日時の取得
+  const start = dayjs();
   const now = dayjs(); // 現在日時の取得
 
   const [count, setCount] = useState(0);
