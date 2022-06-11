@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 function SavingMoneyModule() {
 
-  const start = dayjs('2021-10-06 13:08:00'); // 開始日時の取得
+  const start = dayjs('2022-06-12 00:30:00'); // 開始日時の取得
   const now = dayjs(); // 現在日時の取得
 
   const [count, setCount] = useState(0);

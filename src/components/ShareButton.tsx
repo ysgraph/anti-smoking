@@ -6,7 +6,7 @@ function ShareButton() {
     const start = dayjs('2021-07-06 01:21:22'); // 開始日時の取得
     const now = dayjs(); // 現在日時の取得
     
-    const kinensitekara = 'Yudaiが禁煙してから'
+    const kinensitekara = 'ワイが禁煙してから'
     const day = now.diff(start, 'day')
     const niti = '日'
     const hour = now.diff(start, 'hour') - now.diff(start, 'day')*24
