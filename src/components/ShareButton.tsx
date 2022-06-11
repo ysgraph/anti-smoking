@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 
 function ShareButton() {
 
-    const start = dayjs('2021-07-06 01:21:22'); // 開始日時の取得
+    const start = dayjs('2022-06-12 00:30:00'); // 開始日時の取得
     const now = dayjs(); // 現在日時の取得
     
     const kinensitekara = 'ワイが禁煙してから'
