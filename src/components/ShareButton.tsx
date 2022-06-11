@@ -18,7 +18,7 @@ function ShareButton() {
     now.diff(start); // .diffで差分を使う宣言
     
     return (
-        <a href={`https://twitter.com/share?text=${kinensitekara + day + niti + hour + jikan + minute + hun + keika}&url=https://ysgraph.github.io/anti-smoking/&via=ysgraph`}>
+        <a href={`https://twitter.com/share?text=${kinensitekara + day + niti + hour + jikan + minute + hun + keika}&url=https://ysgraph.github.io/anti-smoking/&via=szrnx`}>
             <img src={twitter} alt="twitter icon" />
             <p className="button">Tweet My Achievement</p>
         </a>
